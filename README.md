@@ -17,6 +17,15 @@
 > Code released for ["Detecting Twenty-thousand Classes using Image-level Supervision"](https://arxiv.org/abs/2201.02605). It is an open-class object detector to detect any label encoded by CLIP without finetuning. See [demo](https://huggingface.co/spaces/akhaliq/Detic).
 
 
+## Libraries 🧰
+- [sentence-transformers](https://github.com/UKPLab/sentence-transformers)
+> Developed on top of the well known [Transformers](https://github.com/huggingface/transformers) library, it provides an easy way to finetune Transformer-based models to obtain sequence-level embeddings.
+- [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning)
+> Modular, flexible and extensible library implementing losses, miners, samplers and trainers for metric learning in PyTorch.
+- [tensorflow-similarity](https://github.com/tensorflow/similarity)
+> A library in the TensorFlow ecosystem with a Keras-like API, providing support for self-supervised contrastive learning and state-of-the-art methods such as SimCLR, SimSian and Barlo Twins.
+
+
 ## Papers 🔬
 - [Learning Distance Metrics from Probabilistic Information](https://cse.buffalo.edu/~lusu/papers/TKDD2020.pdf)
 > Working with datasets that contain probabilistic labels instead of deterministic values.
