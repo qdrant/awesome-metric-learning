@@ -11,11 +11,17 @@
 - [A Tutorial on Distance Metric Learning: Mathematical Foundations, Algorithms, Experimental Analysis, Prospects and Challenges (with Appendices on Mathematical Background and Detailed Algorithms Explanation)](https://arxiv.org/abs/1812.05944)
 > The long title itself is a good description of this great survey. It is intended for those interested in mathematical foundations of metric learning.
 
+
 ## Applications ⚒️
+- [Detic](https://github.com/facebookresearch/Detic)
+> Code released for ["Detecting Twenty-thousand Classes using Image-level Supervision"](https://arxiv.org/abs/2201.02605). It is an open-class object detector to detect any label encoded by CLIP without finetuning. See [demo](https://huggingface.co/spaces/akhaliq/Detic).
 
 
 ## Papers 🔬
+- [Learning Distance Metrics from Probabilistic Information](https://cse.buffalo.edu/~lusu/papers/TKDD2020.pdf)
+> Working with datasets that contain probabilistic labels instead of deterministic values.
 
 
 ## Datasets ℹ️
+> Any labelled or unlabelled data can be used for metric learning with an appropriate method chosen. However some datasets are particularly important in the literature for benchmarking or in some other way, and we list them in this section.
 
