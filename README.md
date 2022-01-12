@@ -10,3 +10,12 @@
 > An intuitive survey of the need for metric learning, old and state-of-the-art approaches, and some real world use cases.
 - [A Tutorial on Distance Metric Learning: Mathematical Foundations, Algorithms, Experimental Analysis, Prospects and Challenges (with Appendices on Mathematical Background and Detailed Algorithms Explanation)](https://arxiv.org/abs/1812.05944)
 > The long title itself is a good description of this great survey. It is intended for those interested in mathematical foundations of metric learning.
+
+## Applications ⚒️
+
+
+## Papers 🔬
+
+
+## Datasets ℹ️
+
