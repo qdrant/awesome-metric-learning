@@ -27,8 +27,20 @@
 
 
 ## Papers 🔬
+- [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)
+> Published by Yann Le Cun et al. (2005), its main focus was on dimensionality reduction. However, the method proposed has excellent properties for metric learning such as preserving neighbourhood relationships and generalization to unseen data, and it has extensive applications with a great number of variations ever since. It is advised that you read [this great post](https://medium.com/@maksym.bekuzarov/losses-explained-contrastive-loss-f8f57fe32246) to better understand its importance for metric learning.
+- [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832)
+> The paper introduces Triplet Loss, which can be seen as the "ImageNet moment" for deep metric learning. It is still one of the state-of-the-art methods, and has a great number of applications in almost any data modalities.
+- [Deep Metric Learning with Angular Loss](https://arxiv.org/abs/1708.01682)
+> A novel loss function with better properties than Contrastive and Triplet Loss such as scale invariance, robustness against feature variance, and better convergence.
+- [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698)
+> Although it is originally designed for the face recognition task, this loss function achieves state-of-the-art results in many other metric learning problems with a simpler and faster data feeding. It is also robust against unclean and unbalanced data when modified with sub-centers and a dynamic margin.
 - [Learning Distance Metrics from Probabilistic Information](https://cse.buffalo.edu/~lusu/papers/TKDD2020.pdf)
 > Working with datasets that contain probabilistic labels instead of deterministic values.
+- [VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning](https://arxiv.org/abs/2105.04906)
+> The paper introduces a method that explicitly avoids the collapse problem in high dimensions with a simple regularization term on the variance of the embeddings along each dimension individually. This new term can be incorporated into other methods for stabilization of the training and performance improvements.
+- [On the Unreasonable Effectiveness of Centroids in Image Retrieval](https://arxiv.org/abs/2104.13643)
+> The paper proposes to use the mean centroid representation both during training and retrieval for robustness against outliers, and more stable features. It further reduces retrieval time and storage requirements, so it is suitable for production deployments.
 
 
 ## Datasets ℹ️
