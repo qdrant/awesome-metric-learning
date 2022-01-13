@@ -13,6 +13,10 @@
 
 
 ## Applications ⚒️
+- [CLIP](https://github.com/openai/CLIP)
+> Training a unified vector embedding for image and text, CLIP offers state-of-the-art zero-shot image classification and image retrieval with a natural language query. See [demo](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb).
+- [Wav2CLIP](https://github.com/descriptinc/lyrebird-wav2clip)
+> Encoding audio into the same vector space as CLIP, this work achieves  zero-shot classification and cross-modal retrieval of audio.
 - [Detic](https://github.com/facebookresearch/Detic)
 > Code released for ["Detecting Twenty-thousand Classes using Image-level Supervision"](https://arxiv.org/abs/2201.02605). It is an open-class object detector to detect any label encoded by CLIP without finetuning. See [demo](https://huggingface.co/spaces/akhaliq/Detic).
 
@@ -31,6 +35,8 @@
 > Published by Yann Le Cun et al. (2005), its main focus was on dimensionality reduction. However, the method proposed has excellent properties for metric learning such as preserving neighbourhood relationships and generalization to unseen data, and it has extensive applications with a great number of variations ever since. It is advised that you read [this great post](https://medium.com/@maksym.bekuzarov/losses-explained-contrastive-loss-f8f57fe32246) to better understand its importance for metric learning.
 - [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832)
 > The paper introduces Triplet Loss, which can be seen as the "ImageNet moment" for deep metric learning. It is still one of the state-of-the-art methods, and has a great number of applications in almost any data modalities.
+- [In Defense of the Triplet Loss for Person Re-Identification](https://arxiv.org/abs/1703.07737)
+> The paper shows that triplet sampling matters and proposes to use batch-hard samples for triplet mining 
 - [Deep Metric Learning with Angular Loss](https://arxiv.org/abs/1708.01682)
 > A novel loss function with better properties than Contrastive and Triplet Loss such as scale invariance, robustness against feature variance, and better convergence.
 - [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698)
@@ -41,8 +47,16 @@
 > The paper introduces a method that explicitly avoids the collapse problem in high dimensions with a simple regularization term on the variance of the embeddings along each dimension individually. This new term can be incorporated into other methods for stabilization of the training and performance improvements.
 - [On the Unreasonable Effectiveness of Centroids in Image Retrieval](https://arxiv.org/abs/2104.13643)
 > The paper proposes to use the mean centroid representation both during training and retrieval for robustness against outliers, and more stable features. It further reduces retrieval time and storage requirements, so it is suitable for production deployments.
+- [TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)
+> It is a state-of-the-art method to learn domain-specific sentence-level embeddings from unlabelled data.
 
 
 ## Datasets ℹ️
 > Any labelled or unlabelled data can be used for metric learning with an appropriate method chosen. However some datasets are particularly important in the literature for benchmarking or in some other way, and we list them in this section.
 
+- [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/)
+> Containing pairs of sentences labelled as `contradiction`, `entailment` and `neutral` regarding their semantic relationships, this dataset is used to train semantic search models in metric learning.
+- [MultiNLI](https://cims.nyu.edu/~sbowman/multinli/)
+> Modeled on the SNLI corpus, the dataset contains sentence pairs from a range of genres of spoken and written text, and it also offers a distinctive cross-genre generalization evaluation. 
+- [Google Landmark Recognition 2019](https://www.kaggle.com/c/landmark-recognition-2019)
+> Label famous (and no so famous) landmarks from images. This dataset is more diverse and thus more interesting than the first version.
