@@ -19,6 +19,8 @@
 > Encoding audio into the same vector space as CLIP, this work achieves  zero-shot classification and cross-modal retrieval of audio.
 - [Detic](https://github.com/facebookresearch/Detic)
 > Code released for ["Detecting Twenty-thousand Classes using Image-level Supervision"](https://arxiv.org/abs/2201.02605). It is an open-class object detector to detect any label encoded by CLIP without finetuning. See [demo](https://huggingface.co/spaces/akhaliq/Detic).
+- [awesome-2vec](https://github.com/MaxwellRebo/awesome-2vec)
+> A list of awesome x-2vec applications from a diverse set of domains such as soccer, bioinformatics and commerce.
 
 
 ## Libraries 🧰
