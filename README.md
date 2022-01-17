@@ -1,6 +1,16 @@
 # awesome-metric-learning
 😎 Awesome list about practical Metric Learning and its applications
 
+## Motivation 🤓
+At Qdrant, we have one goal: make metric learning more practical. This listing is in line with this purpose, and we aim at providing a concise yet useful list of awesomeness around metric learning. It is intended to be inspirational for productivity rather than serve as a full bibliography.
+
+If you find it useful, or like it in some other way, you may want to join our Discord server where we are running a paper reading club on metric learning.
+
+<p align=center>
+    <a href="https://discord.gg/tdtYvXjC4h"><img src="https://img.shields.io/badge/Discord-Qdrant-5865F2.svg?logo=discord" alt="Discord"></a>
+</p>
+
+
 ## Surveys 📖
 - [What is Metric Learning?](http://contrib.scikit-learn.org/metric-learn/introduction.html)
 > A beginner-friendly starting point for traditional metric learning methods from scikit-learn website. It has proceeding guides for [supervised](http://contrib.scikit-learn.org/metric-learn/supervised.html), [weakly supervised](http://contrib.scikit-learn.org/metric-learn/weakly_supervised.html) and [unsupervised](http://contrib.scikit-learn.org/metric-learn/unsupervised.html) metric learning algorithms in [`metric_learn`](http://contrib.scikit-learn.org/metric-learn/metric_learn.html) package.
@@ -19,8 +29,10 @@
 > Encoding audio into the same vector space as CLIP, this work achieves  zero-shot classification and cross-modal retrieval of audio.
 - [Detic](https://github.com/facebookresearch/Detic)
 > Code released for ["Detecting Twenty-thousand Classes using Image-level Supervision"](https://arxiv.org/abs/2201.02605). It is an open-class object detector to detect any label encoded by CLIP without finetuning. See [demo](https://huggingface.co/spaces/akhaliq/Detic).
-- [awesome-2vec](https://github.com/MaxwellRebo/awesome-2vec)
-> A list of awesome x-2vec applications from a diverse set of domains such as soccer, bioinformatics and commerce.
+- [BERTopic](https://github.com/MaartenGr/BERTopic)
+> A topic modeling toolkit that leverages HuggingFace Transformers and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions. It supports guided, (semi-) supervised, and dynamic topic modeling beautiful visualizations.
+- [Embedding Projector](https://projector.tensorflow.org/)
+> A web-based tool to visualize and analyze high-dimensional data with UMAP, T-SNE, PCA or a custom technique.
 
 
 ## Libraries 🧰
@@ -29,7 +41,13 @@
 - [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning)
 > Modular, flexible and extensible library implementing losses, miners, samplers and trainers for metric learning in PyTorch.
 - [tensorflow-similarity](https://github.com/tensorflow/similarity)
-> A library in the TensorFlow ecosystem with a Keras-like API, providing support for self-supervised contrastive learning and state-of-the-art methods such as SimCLR, SimSian and Barlo Twins.
+> A library in the TensorFlow ecosystem with a Keras-like API, providing support for self-supervised contrastive learning and state-of-the-art methods such as SimCLR, SimSian and Barlow Twins.
+- [sense2vec](https://github.com/explosion/sense2vec)
+> A PyTorch library to train, and inference with, contextually-keyed word vectors that are augmented with part-of-speech tags to achieve multi-word queries.
+- [lightly](https://github.com/lightly-ai/lightly)
+> A PyTorch library to efficiently train self-supervised computer vision models with state-of-the-art techniques such as SimCLR, SimSian, Barlow Twins,  BYOL among others.
+- [LightFM](https://linkedin.com/)
+> A Python implementation of a number of popular recommender algorithms with a support to incorpoarate user and item features to the traditional matrix factorization. It represents users and items as a sum of the latent representations of their features, thus achieving a better generalization.
 
 
 ## Papers 🔬
