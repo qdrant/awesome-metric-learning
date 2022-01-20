@@ -192,3 +192,15 @@ serving as a useful benchmark.</summary>
 
 > Shared as a part of a Kaggle competition by Google, this dataset is more diverse and thus more interesting than the first version.
 </details>
+
+<details>
+<summary><a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST</a> - a dataset of Zalando's article images.</summary>
+
+> The dataset consists of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
+</details>
+
+<details>
+<summary><a href="https://cvgl.stanford.edu/projects/lifted_struct/">The Stanford Online Products dataset</a> - dataset has 22,634 classes with 120,053 product images.</summary>
+
+> The dataset is published along with ["Deep Metric Learning via Lifted Structured Feature Embedding"](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) paper.
+</details>
