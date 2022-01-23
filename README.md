@@ -84,6 +84,12 @@ sentence-level embeddings.</summary>
 </details>
 
 <details>
+<summary><a href="https://github.com/NTMC-Community/MatchZoo">MatchZoo</a> - a collection of deep learning models for matching documents.</summary>
+
+> The goal of MatchZoo is to provide a high-quality codebase for deep text matching research, such as document retrieval, question answering, conversational response ranking, and paraphrase identification.
+</details>
+
+<details>
 <summary><a href="https://github.com/KevinMusgrave/pytorch-metric-learning">pytorch-metric-learning</a> - A modular library implementing losses, miners, samplers and trainers in PyTorch.</summary>
 
 </details>
