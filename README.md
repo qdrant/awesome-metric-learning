@@ -121,6 +121,7 @@ recommender algorithms.</summary>
 </details>
 
 ## Papers 🔬
+### Losses
 <details>
 <summary><a href="http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf">Dimensionality Reduction by 
 Learning an Invariant Mapping</a> - First appearance of Contrastive Loss.</summary>
@@ -175,6 +176,18 @@ Self-Supervised Learning</a> - Better regularization for high-dimensional embedd
 <summary><a href="https://arxiv.org/abs/2104.06979">TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning</a> - A SOTA method to learn domain-specific sentence-level embeddings from unlabelled data.</summary>
 
 </details>
+
+### Computer Vision
+<details>
+<summary><a href="http://arxiv.org/abs/2002.05709">SimCLR: A Simple Framework for Contrastive Learning of Visual Representations</a> - Self-Supervised method using Contrastive Loss on pairs of augmented images to learn robust visual representations</summary>
+
+> The paper shows (1) composition of data augmentations plays a critical role - Random Crop + Random Color distortion provides best downstream classifier accuracy (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning.
+</details>
+
+### Natural Language Processing
+
+### Multi-Modal
+
 
 
 ## Datasets ℹ️
