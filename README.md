@@ -68,6 +68,12 @@ space as CLIP.</summary>
 </details>
 
 <details>
+<summary><a href="https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_10_TRAINING_ZERO_SHOT_MODEL.md">TARS</a> - Task-aware representation of sentences, a novel method for several zero-shot tasks including NER</summary>
+
+> The method and pretrained models found in Flair go beyond zero-shot sequence classification and offers zero-shot span tagging abilities for tasks such as named entity recognition and part of speech tagging.
+</details>
+
+<details>
 <summary><a href="https://github.com/MaartenGr/BERTopic">BERTopic</a> - A novel topic modeling toolkit with BERT 
 embeddings.</summary>
 
@@ -102,12 +108,6 @@ sentence-level embeddings.</summary>
 <summary><a href="https://github.com/NTMC-Community/MatchZoo">MatchZoo</a> - a collection of deep learning models for matching documents.</summary>
 
 > The goal of MatchZoo is to provide a high-quality codebase for deep text matching research, such as document retrieval, question answering, conversational response ranking, and paraphrase identification.
-</details>
-
-<details>
-<summary><a href="https://github.com/flairNLP/flair">Flair</a> - An NLP library with state-of-the-art sentence and document embeddings for novel use cases</summary>
-
-> It offers a novel method named TARS, and pretrained models in several languages, for zero-shot named entity recognition beside zero-shot text classification, and semantic search.
 </details>
 
 <details>
@@ -231,3 +231,4 @@ serving as a useful benchmark.</summary>
 
 > The dataset is published along with ["Deep Metric Learning via Lifted Structured Feature Embedding"](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) paper.
 </details>
+
