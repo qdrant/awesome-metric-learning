@@ -60,6 +60,20 @@ space as CLIP.</summary>
 </details>
 
 <details>
+<summary><a href="https://tfhub.dev/google/collections/gtr/1">GTR</a> - Collection of Generalizable T5-based dense Retrievers (GTR) models.</summary>
+
+> TensorFlow Hub offers a collection of pretrained models from the paper [Large Dual Encoders Are Generalizable Retrievers](https://arxiv.org/abs/2112.07899).
+> GTR models are first initialized from a pre-trained T5 checkpoint. They are then further pre-trained with a set of community question-answer pairs. Finally, they are fine-tuned on the MS Marco dataset.
+> The two encoders are shared so the GTR model functions as a single text encoder. The input is variable-length English text and the output is a 768-dimensional vector.
+</details>
+
+<details>
+<summary><a href="https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_10_TRAINING_ZERO_SHOT_MODEL.md">TARS</a> - Task-aware representation of sentences, a novel method for several zero-shot tasks including NER</summary>
+
+> The method and pretrained models found in Flair go beyond zero-shot sequence classification and offers zero-shot span tagging abilities for tasks such as named entity recognition and part of speech tagging.
+</details>
+
+<details>
 <summary><a href="https://github.com/MaartenGr/BERTopic">BERTopic</a> - A novel topic modeling toolkit with BERT 
 embeddings.</summary>
 
@@ -71,6 +85,13 @@ embeddings.</summary>
 high-dimensional data.</summary>
 
 > It supports UMAP, T-SNE, PCA, or custom techniques to analyze embeddings of encoders.
+</details>
+
+<details>
+<summary><a href="https://github.com/ma921/XRDidentifier">XRD Identifier</a> - Fingerprinting substances with metric learning</summary>
+
+> Identification of substances based on spectral analysis plays a vital role in forensic science. Similarly, the material identification process is of paramount importance for malfunction reasoning in manufacturing sectors and materials research.
+> This models enables to identify materials with deep metric learning applied to X-Ray Diffraction (XRD) spectrum. Read [this post](https://towardsdatascience.com/automatic-spectral-identification-using-deep-metric-learning-with-1d-regnet-and-adacos-8b7fb36f2d5f) for more background.
 </details>
 
 
