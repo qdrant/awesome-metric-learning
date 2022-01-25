@@ -120,6 +120,37 @@ recommender algorithms.</summary>
 > It supports incorporating user and item features to the traditional matrix factorization. It represents users and items as a sum of the latent representations of their features, thus achieving a better generalization.
 </details>
 
+## Approximate Nearest Neighbors ⚡
+<details>
+<summary><a href="https://github.com/erikbern/ann-benchmarks">ANN Benchmarks</a> - Benchmarking various ANN implementations for different metrics.</summary>
+
+> - Benchmarks 20+ ANN algorithms on 9 standard datasets. 
+> - Supports bringing your own dataset too: [Medium Post](https://medium.com/towards-artificial-intelligence/how-to-choose-the-best-nearest-neighbors-algorithm-8d75d42b16ab?sk=889bc0006f5ff773e3a30fa283d91ee7)
+</details>
+
+<details>
+<summary><a href="https://github.com/facebookresearch/faiss">FAISS</a> - Efficient similarity search and clustering of dense vectors that possibly do not fit in RAM</summary>
+
+> - Contains various Indexing methods such as IVF, PQ and IVF-PQ.
+> - Not the fastest, but definitely very memory efficient!
+> - [Tutorial](https://www.pinecone.io/learn/faiss-tutorial/)
+</details>
+
+<details>
+<summary><a href="https://github.com/nmslib/hnswlib">HNSW</a> - Hierarchical Navigable Small World graphs</summary>
+
+> - Paper: [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs](https://arxiv.org/abs/1603.09320)
+> - One of the fastest ANN algorithms out there. 
+> - Requires large amount of RAM.
+</details>
+
+<details>
+<summary><a href="https://github.com/google-research/google-research/tree/master/scann">Google's SCANN</a> - The technology behind vector search at Google</summary>
+
+> - Paper: [Accelerating Large-Scale Inference with Anisotropic Vector Quantization](https://arxiv.org/abs/1908.10396)
+</details>
+
+
 ## Papers 🔬
 ### Losses
 <details>
@@ -179,15 +210,29 @@ Self-Supervised Learning</a> - Better regularization for high-dimensional embedd
 
 ### Computer Vision
 <details>
-<summary><a href="http://arxiv.org/abs/2002.05709">SimCLR: A Simple Framework for Contrastive Learning of Visual Representations</a> - Self-Supervised method using Contrastive Loss on pairs of augmented images to learn robust visual representations</summary>
+<summary><a href="http://arxiv.org/abs/2002.05709">SimCLR: A Simple Framework for Contrastive Learning of Visual Representations</a> - Self-Supervised method comparing two differently augmented versions of the same image with Contrastive Loss</summary>
 
-> The paper shows (1) composition of data augmentations plays a critical role - Random Crop + Random Color distortion provides best downstream classifier accuracy (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning.
+> 1. Composition of data augmentations plays a critical role - Random Crop + Random Color distortion provides best downstream classifier accuracy
+> 2. Introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations
+> 3. Contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning.
 </details>
 
 ### Natural Language Processing
+<details>
+<summary><a href="https://aclanthology.org/2021.emnlp-main.552">SimCSE: Simple Contrastive Learning of Sentence Embeddings</a> - An unsupervised approach, which takes an input sentence and predicts itself in a contrastive objective, with only standard dropout used as noise.
+</summary>
+</details>
 
 ### Multi-Modal
+<details>
+<summary><a href="http://arxiv.org/abs/2103.00020">Learning Transferable Visual Models From Natural Language Supervision</a> - The paper that introduced CLIP: Training a unified vector embedding for image and text.
+</summary>
+</details>
 
+<details>
+<summary><a href="http://arxiv.org/abs/2102.05918">Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision</a> - Google's answer to CLIP: Training a unified vector embedding for image and text but using noisy text instead of a carefully curated dataset.
+</summary>
+</details>
 
 
 ## Datasets ℹ️
@@ -222,4 +267,10 @@ serving as a useful benchmark.</summary>
 <summary><a href="https://cvgl.stanford.edu/projects/lifted_struct/">The Stanford Online Products dataset</a> - dataset has 22,634 classes with 120,053 product images.</summary>
 
 > The dataset is published along with ["Deep Metric Learning via Lifted Structured Feature Embedding"](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) paper.
+</details>
+
+<details>
+<summary><a href="https://www.drivendata.org/competitions/79/">MetaAI's 2021 Image Similarity Dataset and Challenge</a> - dataset has 1M Reference image set, 1M Training image set, 50K Dev query image set and 50K Test query image set</summary>
+
+> The dataset is published along with ["The 2021 Image Similarity Dataset and Challenge"](http://arxiv.org/abs/2106.09672) paper.
 </details>
