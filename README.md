@@ -41,25 +41,25 @@ study for newcomers.</summary>
 ## Applications 🎮
 
 <details>
-<summary><a href="https://github.com/openai/CLIP">CLIP</a> - Training a unified vector embedding for image and text. `NLP` `CV`</summary>
+<summary><a href="https://github.com/openai/CLIP">CLIP</a> - Training a unified vector embedding for image and text. <code>NLP</code> <code>CV</code></summary>
 
 > CLIP offers state-of-the-art zero-shot image classification and image retrieval with a natural language query. See [demo](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb).
 </details>
 
 <details>
-<summary><a href="https://github.com/descriptinc/lyrebird-wav2clip">Wav2CLIP</a> - Encoding audio into the same vector space as CLIP. `Audio` </summary>
+<summary><a href="https://github.com/descriptinc/lyrebird-wav2clip">Wav2CLIP</a> - Encoding audio into the same vector space as CLIP. <code>Audio</code> </summary>
 
 > This work achieves zero-shot classification and cross-modal audio retrieval from natural language queries.
 </details>
 
 <details>
-<summary><a href="https://github.com/facebookresearch/Detic">Detic</a> - Code released for <a href="https://arxiv.org/abs/2201.02605">"Detecting Twenty-thousand Classes using Image-level Supervision"</a>. `CV`</summary>
+<summary><a href="https://github.com/facebookresearch/Detic">Detic</a> - Code released for <a href="https://arxiv.org/abs/2201.02605">"Detecting Twenty-thousand Classes using Image-level Supervision"</a>. <code>CV</code></summary>
 
 > It is an open-class object detector to detect any label encoded by CLIP without finetuning. See [demo](https://huggingface.co/spaces/akhaliq/Detic).
 </details>
 
 <details>
-<summary><a href="https://tfhub.dev/google/collections/gtr/1">GTR</a> - Collection of Generalizable T5-based dense Retrievers (GTR) models. `NLP`</summary>
+<summary><a href="https://tfhub.dev/google/collections/gtr/1">GTR</a> - Collection of Generalizable T5-based dense Retrievers (GTR) models. <code>NLP</code></summary>
 
 > TensorFlow Hub offers a collection of pretrained models from the paper [Large Dual Encoders Are Generalizable Retrievers](https://arxiv.org/abs/2112.07899).
 > GTR models are first initialized from a pre-trained T5 checkpoint. They are then further pre-trained with a set of community question-answer pairs. Finally, they are fine-tuned on the MS Marco dataset.
@@ -67,13 +67,13 @@ study for newcomers.</summary>
 </details>
 
 <details>
-<summary><a href="https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_10_TRAINING_ZERO_SHOT_MODEL.md">TARS</a> - Task-aware representation of sentences, a novel method for several zero-shot tasks including NER. `NLP`</summary>
+<summary><a href="https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_10_TRAINING_ZERO_SHOT_MODEL.md">TARS</a> - Task-aware representation of sentences, a novel method for several zero-shot tasks including NER. <code>NLP</code></summary>
 
 > The method and pretrained models found in Flair go beyond zero-shot sequence classification and offers zero-shot span tagging abilities for tasks such as named entity recognition and part of speech tagging.
 </details>
 
 <details>
-<summary><a href="https://github.com/MaartenGr/BERTopic">BERTopic</a> - A novel topic modeling toolkit with BERT embeddings. `NLP`</summary>
+<summary><a href="https://github.com/MaartenGr/BERTopic">BERTopic</a> - A novel topic modeling toolkit with BERT embeddings. <code>NLP</code></summary>
 
 > It leverages HuggingFace Transformers and c-TF-IDF to create dense clusters allowing for easily interpretable topics while keeping important words in the topic descriptions. It supports guided, (semi-) supervised, and dynamic topic modeling beautiful visualizations.
 </details>
@@ -89,13 +89,13 @@ study for newcomers.</summary>
 
 <details>
 <summary><a href="https://github.com/UKPLab/sentence-transformers">sentence-transformers</a> - A library for 
-sentence-level embeddings. `NLP`</summary>
+sentence-level embeddings. <code>NLP</code></summary>
 
 > Developed on top of the well-known [Transformers](https://github.com/huggingface/transformers) library, it provides an easy way to finetune Transformer-based models to obtain sequence-level embeddings.
 </details>
 
 <details>
-<summary><a href="https://github.com/NTMC-Community/MatchZoo">MatchZoo</a> - a collection of deep learning models for matching documents. `NLP`</summary>
+<summary><a href="https://github.com/NTMC-Community/MatchZoo">MatchZoo</a> - a collection of deep learning models for matching documents. <code>NLP</code></summary>
 
 > The goal of MatchZoo is to provide a high-quality codebase for deep text matching research, such as document retrieval, question answering, conversational response ranking, and paraphrase identification.
 </details>
@@ -113,20 +113,20 @@ TensorFlow with a Keras-like API.</summary>
 </details>
 
 <details>
-<summary><a href="https://github.com/explosion/sense2vec">sense2vec</a> - Contextually keyed word vectors. `NLP`</summary>
+<summary><a href="https://github.com/explosion/sense2vec">sense2vec</a> - Contextually keyed word vectors. <code>NLP</code></summary>
 
 > A PyTorch library to train and inference with contextually-keyed word vectors augmented with part-of-speech tags to achieve multi-word queries.
 </details>
 
 <details>
-<summary><a href="https://github.com/lightly-ai/lightly">lightly</a> - A Python library for self-supervised learning on images. `CV`</summary>
+<summary><a href="https://github.com/lightly-ai/lightly">lightly</a> - A Python library for self-supervised learning on images. <code>CV</code></summary>
 
 > A PyTorch library to efficiently train self-supervised computer vision models with state-of-the-art techniques such as SimCLR, SimSian, Barlow Twins, BYOL, among others.
 </details>
 
 <details>
 <summary><a href="https://github.com/lyst/lightfm">LightFM</a> - A Python implementation of a number of popular 
-recommender algorithms. `RecSys`</summary>
+recommender algorithms. <code>RecSys</code></summary>
 
 > It supports incorporating user and item features to the traditional matrix factorization. It represents users and items as a sum of the latent representations of their features, thus achieving a better generalization.
 </details>
@@ -223,7 +223,7 @@ Self-Supervised Learning</a> - Better regularization for high-dimensional embedd
 </details>
 
 <details>
-<summary><a href="http://arxiv.org/abs/2002.05709">SimCLR: A Simple Framework for Contrastive Learning of Visual Representations</a> - Self-Supervised method comparing two differently augmented versions of the same image with Contrastive Loss. `CV`</summary>
+<summary><a href="http://arxiv.org/abs/2002.05709">SimCLR: A Simple Framework for Contrastive Learning of Visual Representations</a> - Self-Supervised method comparing two differently augmented versions of the same image with Contrastive Loss. <code>CV</code></summary>
 
 > It demonstrates among other things that
 > - composition of data augmentations plays a critical role - Random Crop + Random Color distortion provides the best downstream classifier accuracy,
@@ -232,17 +232,17 @@ Self-Supervised Learning</a> - Better regularization for high-dimensional embedd
 </details>
 
 <details>
-<summary><a href="https://aclanthology.org/2021.emnlp-main.552">SimCSE: Simple Contrastive Learning of Sentence Embeddings</a> - An unsupervised approach, which takes an input sentence and predicts itself in a contrastive objective, with only standard dropout used as noise. `NLP`</summary>
+<summary><a href="https://aclanthology.org/2021.emnlp-main.552">SimCSE: Simple Contrastive Learning of Sentence Embeddings</a> - An unsupervised approach, which takes an input sentence and predicts itself in a contrastive objective, with only standard dropout used as noise. <code>NLP</code></summary>
 
 > They also incorporates annotated pairs from natural language inference datasets into their contrastive learning framework in a supervised setting, showing that contrastive learning objective regularizes pre-trained embeddings’ anisotropic space to be more uniform, and it better aligns positive pairs when supervised signals are available.
 </details>
 
 <details>
-<summary><a href="http://arxiv.org/abs/2103.00020">Learning Transferable Visual Models From Natural Language Supervision</a> - The paper that introduced CLIP: Training a unified vector embedding for image and text. `NLP` `CV`</summary>
+<summary><a href="http://arxiv.org/abs/2103.00020">Learning Transferable Visual Models From Natural Language Supervision</a> - The paper that introduced CLIP: Training a unified vector embedding for image and text. <code>NLP</code> <code>CV</code></summary>
 </details>
 
 <details>
-<summary><a href="http://arxiv.org/abs/2102.05918">Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision</a> - Google's answer to CLIP: Training a unified vector embedding for image and text but using noisy text instead of a carefully curated dataset. `NLP` `CV`</summary>
+<summary><a href="http://arxiv.org/abs/2102.05918">Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision</a> - Google's answer to CLIP: Training a unified vector embedding for image and text but using noisy text instead of a carefully curated dataset. <code>NLP</code> <code>CV</code></summary>
 </details>
 
 
@@ -251,37 +251,37 @@ Self-Supervised Learning</a> - Better regularization for high-dimensional embedd
 
 <details>
 <summary><a href="https://nlp.stanford.edu/projects/snli/">SNLI</a> - The Stanford Natural Language Inference Corpus, 
-serving as a useful benchmark. `NLP`</summary>
+serving as a useful benchmark. <code>NLP</code></summary>
 
 > The dataset contains pairs of sentences labeled as `contradiction`, `entailment`, and `neutral` regarding semantic relationships. Useful to train semantic search models in metric learning.
 </details>
 
 <details>
-<summary><a href="https://cims.nyu.edu/~sbowman/multinli/">MultiNLI</a> - NLI corpus with samples from multiple genres. `NLP`</summary>
+<summary><a href="https://cims.nyu.edu/~sbowman/multinli/">MultiNLI</a> - NLI corpus with samples from multiple genres. <code>NLP</code></summary>
 
 > Modeled on the SNLI corpus, the dataset contains sentence pairs from various genres of spoken and written text, and it also offers a distinctive cross-genre generalization evaluation.
 </details>
 
 <details>
-<summary><a href="https://www.kaggle.com/c/landmark-recognition-2019">Google Landmark Recognition 2019</a> - Label famous (and no so famous) landmarks from images. `CV`</summary>
+<summary><a href="https://www.kaggle.com/c/landmark-recognition-2019">Google Landmark Recognition 2019</a> - Label famous (and no so famous) landmarks from images. <code>CV</code></summary>
 
 > Shared as a part of a Kaggle competition by Google, this dataset is more diverse and thus more interesting than the first version.
 </details>
 
 <details>
-<summary><a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST</a> - a dataset of Zalando's article images. `CV`</summary>
+<summary><a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST</a> - a dataset of Zalando's article images. <code>CV</code></summary>
 
 > The dataset consists of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
 </details>
 
 <details>
-<summary><a href="https://cvgl.stanford.edu/projects/lifted_struct/">The Stanford Online Products dataset</a> - dataset has 22,634 classes with 120,053 product images. `CV`</summary>
+<summary><a href="https://cvgl.stanford.edu/projects/lifted_struct/">The Stanford Online Products dataset</a> - dataset has 22,634 classes with 120,053 product images. <code>CV</code></summary>
 
 > The dataset is published along with ["Deep Metric Learning via Lifted Structured Feature Embedding"](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) paper.
 </details>
 
 <details>
-<summary><a href="https://www.drivendata.org/competitions/79/">MetaAI's 2021 Image Similarity Dataset and Challenge</a> - dataset has 1M Reference image set, 1M Training image set, 50K Dev query image set and 50K Test query image set. `CV`</summary>
+<summary><a href="https://www.drivendata.org/competitions/79/">MetaAI's 2021 Image Similarity Dataset and Challenge</a> - dataset has 1M Reference image set, 1M Training image set, 50K Dev query image set and 50K Test query image set. <code>CV</code></summary>
 
 > The dataset is published along with ["The 2021 Image Similarity Dataset and Challenge"](http://arxiv.org/abs/2106.09672) paper.
 </details>
