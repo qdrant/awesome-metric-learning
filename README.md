@@ -166,7 +166,6 @@ recommender algorithms. <code>RecSys</code></summary>
 
 
 ## Papers 🔬
-### Loss Functions
 <details>
 <summary><a href="http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf">Dimensionality Reduction by 
 Learning an Invariant Mapping</a> - First appearance of Contrastive Loss.</summary>
