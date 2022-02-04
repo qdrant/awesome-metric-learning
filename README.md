@@ -107,12 +107,6 @@ study for newcomers.</summary>
 > State-of-the-art methods are incapable of leveraging attributes from different types of items and thus suffer from data sparsity problems because it is quite challenging to represent items with different feature spaces jointly. To tackle this problem, they propose a kernel-based neural network, namely deep unified representation (DURation) for heterogeneous recommendation, to jointly model unified representations of heterogeneous items while preserving their original feature space topology structures. See [paper](https://arxiv.org/abs/2201.05861).
 </details>
 
-<details>
-<summary><a href="https://github.com/selimfirat/addml">ADDML</a> - Unsupervised anomaly detection via deep metric learning</summary>
-
-> Source code for [Unsupervised Anomaly Detection via Deep Metric Learning with End-to-End Optimization](https://arxiv.org/abs/2005.05865), where they present a novel data distillation method through self-supervision to remedy the conventional practice of assuming all data as normal, employing the hard mining technique from the DML literature. They show these components improve the performance of the model, significantly reducing the running time.
-</details>
-
 
 ## Libraries 🧰
 
