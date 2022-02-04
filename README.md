@@ -37,6 +37,11 @@ study for newcomers.</summary>
 
 </details>
 
+<details>
+<summary><a href="https://arxiv.org/abs/2201.051761">Neural Approaches to Conversational Information Retrieval</a> - A working draft of a 150-page survey book by Microsoft researchers</summary>
+
+</details>
+
 
 ## Applications 🎮
 
@@ -84,6 +89,24 @@ study for newcomers.</summary>
 > Identification of substances based on spectral analysis plays a vital role in forensic science. Similarly, the material identification process is of paramount importance for malfunction reasoning in manufacturing sectors and materials research.
 > This models enables to identify materials with deep metric learning applied to X-Ray Diffraction (XRD) spectrum. Read [this post](https://towardsdatascience.com/automatic-spectral-identification-using-deep-metric-learning-with-1d-regnet-and-adacos-8b7fb36f2d5f) for more background.
 </details>
+
+<details>
+<summary><a href="https://github.com/overwindows/SemanticCodeSearch">Semantic Code Search</a> - Retrieving relevant code snippets given a natural language query. <code>NLP</code></summary>
+
+> Different from typical information retrieval tasks, code search requires to bridge the semantic gap between the programming language and natural language, for better describing intrinsic concepts and semantics. The repository provides the pretrained models and source code for [Learning Deep Semantic Model for Code Search using CodeSearchNet Corpus](https://arxiv.org/abs/2201.11313), where they apply several tricks to achieve this.
+</details>
+
+<details>
+<summary><a href="https://git.tu-berlin.de/rsim/duch">DUCH: Deep Unsupervised Contrastive Hashing</a> - Large-scale cross-modal text-image retrieval in remote sensing with computer vision. <code>CV</code> <code>NLP</code></summary>
+
+</details>
+
+<details>
+<summary><a href="https://github.com/geekinglcq/HRec">DUration: Deep Unsupervised Representation for Heterogeneous Recommendation</a> - Recommending different types of items efficiently. <code>RecSys</code></summary>
+
+> State-of-the-art methods are incapable of leveraging attributes from different types of items and thus suffer from data sparsity problems because it is quite challenging to represent items with different feature spaces jointly. To tackle this problem, they propose a kernel-based neural network, namely deep unified representation (DURation) for heterogeneous recommendation, to jointly model unified representations of heterogeneous items while preserving their original feature space topology structures. See [paper](https://arxiv.org/abs/2201.05861).
+</details>
+
 
 ## Libraries 🧰
 
