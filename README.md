@@ -38,7 +38,7 @@ study for newcomers.</summary>
 </details>
 
 <details>
-<summary><a href="https://arxiv.org/abs/2201.051761">Neural Approaches to Conversational Information Retrieval</a> - A working draft of a 150-page survey book by Microsoft researchers</summary>
+<summary><a href="https://arxiv.org/abs/2201.05176">Neural Approaches to Conversational Information Retrieval</a> - A working draft of a 150-page survey book by Microsoft researchers</summary>
 
 </details>
 
