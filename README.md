@@ -107,6 +107,25 @@ study for newcomers.</summary>
 > State-of-the-art methods are incapable of leveraging attributes from different types of items and thus suffer from data sparsity problems because it is quite challenging to represent items with different feature spaces jointly. To tackle this problem, they propose a kernel-based neural network, namely deep unified representation (DURation) for heterogeneous recommendation, to jointly model unified representations of heterogeneous items while preserving their original feature space topology structures. See [paper](https://arxiv.org/abs/2201.05861).
 </details>
 
+<details>
+<summary><a href="https://github.com/MathieuCayssol/Item2Vec">Item2Vec</a> - Word2Vec-inspired model for item recommendation. <code>RecSys</code></summary>
+
+> It provides the implementation of [Item2Vec: Neural Item Embedding for Collaborative Filtering](https://arxiv.org/abs/1603.04259), wrapped as a `sklearn` estimator compatible with `GridSearchCV` and `BayesSearchCV` for hyperparameter tuning.
+</details>
+
+## Case Studies ✍️
+<details>
+<summary><a href="https://arxiv.org/pdf/1810.09591.pdf">Applying Deep Learning to Airbnb Search</a></summary>
+</details>
+
+<details>
+<summary><a href="https://arxiv.org/pdf/2106.09297.pdf">Embedding-based Product Retrieval in Taobao Search</a>
+</details>
+
+<details>
+<summary><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf">Deep Neural Networks for Youtube Recommendations</a></summary>
+</details>
+
 
 ## Libraries 🧰
 
@@ -153,6 +172,19 @@ recommender algorithms. <code>RecSys</code></summary>
 
 > It supports incorporating user and item features to the traditional matrix factorization. It represents users and items as a sum of the latent representations of their features, thus achieving a better generalization.
 </details>
+
+<details>
+<summary><a href="https://github.com/RaRe-Technologies/gensim">gensim</a> - Library for topic modelling, document indexing and similarity retrieval with large corpora</summary>
+
+> It provides efficient multicore and memory-independent implementations of popular algorithms, such as online Latent Semantic Analysis (LSA/LSI/SVD), Latent Dirichlet Allocation (LDA), Random Projections (RP), Hierarchical Dirichlet Process (HDP) or word2vec.
+</details>
+
+<details>
+<summary><a href="https://github.com/AmazingDD/daisyRec">DasyRec</a> - A library for recommender system development in pytorch. <code>RecSys</code></summary>
+
+> It provides implementations of algorithms such as KNN, LFM, SLIM, NeuMF, FM, DeepFM, VAE and so on, in order to ensure fair comparison of recommender system benchmarks.
+</details>
+
 
 ## Tools ⚒️
 
