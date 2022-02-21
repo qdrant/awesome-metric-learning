@@ -11,6 +11,10 @@ If you find it useful or like it in some other way, you may want to join our Dis
 </p>
 
 
+## Contributing 🤩
+If you want to contribute to this project, but don't know how, you may want to check out the [contributing guide](/CONTRIBUTING.md). It's easy! 😌
+
+
 ## Surveys 📖
 
 <details>
