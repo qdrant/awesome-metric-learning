@@ -117,6 +117,12 @@ study for newcomers.</summary>
 > It provides the implementation of [Item2Vec: Neural Item Embedding for Collaborative Filtering](https://arxiv.org/abs/1603.04259), wrapped as a `sklearn` estimator compatible with `GridSearchCV` and `BayesSearchCV` for hyperparameter tuning.
 </details>
 
+<details>
+<summary><a href="https://github.com/reppertj/earworm">Earworm</a> - Search for royalty-free commercial-use music by sonic similarity</summary>
+
+> You can search for the overall closest fit, or choose to focus matching genre, mood, or instrumentation.
+</details>
+
 ## Case Studies ✍️
 <details>
 <summary><a href="https://arxiv.org/pdf/1810.09591.pdf">Applying Deep Learning to Airbnb Search</a></summary>
@@ -196,6 +202,12 @@ recommender algorithms. <code>RecSys</code></summary>
 <summary><a href="https://projector.tensorflow.org/">Embedding Projector</a> - A web-based tool to visualize high-dimensional data.</summary>
 
 > It supports UMAP, T-SNE, PCA, or custom techniques to analyze embeddings of encoders.
+</details>
+
+<details>
+<summary><a href="https://github.com/uber-research/parallax">Parallax</a> - a tool for visualizing embeddings</summary>
+
+> It allows you to visualize the embedding space selecting explicitly the axis through algebraic formulas on the embeddings (like king-man+woman) and highlight specific items in the embedding space. It also supports implicit axes via PCA and t-SNE. See [paper](https://arxiv.org/abs/1905.12099).
 </details>
 
 ### Approximate Nearest Neighbors ⚡
