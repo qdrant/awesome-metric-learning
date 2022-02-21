@@ -123,6 +123,12 @@ study for newcomers.</summary>
 > You can search for the overall closest fit, or choose to focus matching genre, mood, or instrumentation.
 </details>
 
+<details>
+<summary><a href="https://github.com/princeton-nlp/DensePhrases">DensePhrases</a> - a text retrieval model that can return phrases, sentences, passages, or documents for your natural language queries. <code>NLP</code></summary>
+
+> It searches phrase-level answers to your questions in real-time or retrieves passages for downstream tasks. Check out [demo](http://densephrases.korea.ac.kr/), or see [paper](https://arxiv.org/abs/2109.08133).
+</details>
+
 ## Case Studies ✍️
 <details>
 <summary><a href="https://arxiv.org/pdf/1810.09591.pdf">Applying Deep Learning to Airbnb Search</a></summary>
