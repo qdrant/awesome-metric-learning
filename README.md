@@ -129,6 +129,18 @@ study for newcomers.</summary>
 > It searches phrase-level answers to your questions in real-time or retrieves passages for downstream tasks. Check out [demo](http://densephrases.korea.ac.kr/), or see [paper](https://arxiv.org/abs/2109.08133).
 </details>
 
+<details>
+<summary><a href="https://github.com/PrithivirajDamodaran/Alt-ZSC">Alt-ZSC</a> - An alternate implementation for zero-shot text classification. <code>NLP</code></summary>
+
+> Instead of leveraging NLI/XNLI, they make use of the text encoder of the CLIP model, concluding from casual experiments that this sometimes gives better accuracy than NLI-based models.
+</details>
+
+<details>
+<summary><a href="https://github.com/Spijkervet/CLMR">CLMR</a> - Contrastive learning of musical representations</summary>
+
+> Application of the SimCLR method to musical data with out-of-domain generalization in million-scale music classification. See [demo](https://spijkervet.github.io/CLMR/examples/clmr-onnxruntime-web/) or [paper](https://arxiv.org/abs/2103.09410).
+</details>
+
 ## Case Studies ✍️
 <details>
 <summary><a href="https://arxiv.org/pdf/1810.09591.pdf">Applying Deep Learning to Airbnb Search</a></summary>
@@ -140,6 +152,11 @@ study for newcomers.</summary>
 
 <details>
 <summary><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf">Deep Neural Networks for Youtube Recommendations</a></summary>
+</details>
+
+<details>
+<summary><a href="https://isir-ecom.github.io/papers/isir-ecom-2022_paper_3.pdf">Embracing Structure in Data for Billion-scale Semantic Product Search</a> by Amazon</summary>
+
 </details>
 
 
@@ -215,6 +232,13 @@ recommender algorithms. <code>RecSys</code></summary>
 
 > It allows you to visualize the embedding space selecting explicitly the axis through algebraic formulas on the embeddings (like king-man+woman) and highlight specific items in the embedding space. It also supports implicit axes via PCA and t-SNE. See [paper](https://arxiv.org/abs/1905.12099).
 </details>
+
+<details>
+<summary><a href="https://github.com/carted/processing-text-data">Processing Text Data</a> - An optimized Apache Beam pipeline for generating sentence embeddings (runnable on Cloud Dataflow). <code>NLPP</code></summary>
+
+</details>
+
+
 
 ### Approximate Nearest Neighbors ⚡
 <details>
