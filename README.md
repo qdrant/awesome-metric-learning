@@ -234,7 +234,7 @@ recommender algorithms. <code>RecSys</code></summary>
 </details>
 
 <details>
-<summary><a href="https://github.com/carted/processing-text-data">Processing Text Data</a> - An optimized Apache Beam pipeline for generating sentence embeddings (runnable on Cloud Dataflow). <code>NLPP</code></summary>
+<summary><a href="https://github.com/carted/processing-text-data">Processing Text Data</a> - An optimized Apache Beam pipeline for generating sentence embeddings (runnable on Cloud Dataflow). <code>NLP</code></summary>
 
 </details>
 
