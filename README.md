@@ -345,6 +345,12 @@ Self-Supervised Learning</a> - Better regularization for high-dimensional embedd
 <summary><a href="http://arxiv.org/abs/2102.05918">Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision</a> - Google's answer to CLIP: Training a unified vector embedding for image and text but using noisy text instead of a carefully curated dataset. <code>NLP</code> <code>CV</code></summary>
 </details>
 
+<details>
+<summary><a href="https://github.com/msight-tech/research-xbm">Cross-Batch Memory for Embedding Learning (XBM)</a> - A technique aimed to extend batch sizes for similarity losses, without actually evaluating all embeddings in a single batch. </summary>
+    
+> Mining informative negative instances are of central importance to deep metric learning (DML), however this task is intrinsically limited by mini-batch training, where only a mini-batch of instances is accessible at each iteration. In this paper, we identify a "slow drift" phenomena by observing that the embedding features drift exceptionally slow even as the model parameters are updating throughout the training process. This suggests that the features of instances computed at preceding iterations can be used to considerably approximate their features extracted by the current model.
+    
+</details>
 
 ## Datasets ℹ️
 > Practitioners can use any labeled or unlabelled data for metric learning with an appropriate method chosen. However, some datasets are particularly important in the literature for benchmarking or other ways, and we list them in this section.
