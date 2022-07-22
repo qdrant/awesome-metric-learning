@@ -163,6 +163,12 @@ study for newcomers.</summary>
 ## Libraries 🧰
 
 <details>
+<summary><a href="https://github.com/qdrant/quaterion">Quaterion</a> - Blazing fast framework for fine-tuning similarity learning models</summary>
+
+> Quaterion is a framework for fine-tuning similarity learning models. The framework closes the "last mile" problem in training models for semantic search, recommendations, anomaly detection, extreme classification, matching engines, e.t.c. It is designed to combine the performance of pre-trained models with specialization for the custom task while avoiding slow and costly training.
+</details>
+
+<details>
 <summary><a href="https://github.com/UKPLab/sentence-transformers">sentence-transformers</a> - A library for 
 sentence-level embeddings. <code>NLP</code></summary>
 
@@ -197,6 +203,12 @@ TensorFlow with a Keras-like API.</summary>
 <summary><a href="https://github.com/lightly-ai/lightly">lightly</a> - A Python library for self-supervised learning on images. <code>CV</code></summary>
 
 > A PyTorch library to efficiently train self-supervised computer vision models with state-of-the-art techniques such as SimCLR, SimSian, Barlow Twins, BYOL, among others.
+</details>
+
+<details>
+<summary><a href="https://github.com/embeddings-benchmark/mteb">MTEB</a> - Massive Text Embedding Benchmark. <code>NLP</code></summary>
+
+> A library that helps you benchmark pretrained and custom embedding models on tens of datasets and tasks with ease.
 </details>
 
 <details>
