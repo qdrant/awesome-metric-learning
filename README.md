@@ -176,6 +176,11 @@ sentence-level embeddings. <code>NLP</code></summary>
 </details>
 
 <details>
+<summary><a href="https://github.com/OML-Team/open-metric-learning">OpenMetricLearning</a> - PyTorch-based framework to train and validate the models producing high-quality embeddings. <code>CV</code></summary>
+
+</details>
+    
+<details>
 <summary><a href="https://github.com/NTMC-Community/MatchZoo">MatchZoo</a> - a collection of deep learning models for matching documents. <code>NLP</code></summary>
 
 > The goal of MatchZoo is to provide a high-quality codebase for deep text matching research, such as document retrieval, question answering, conversational response ranking, and paraphrase identification.
