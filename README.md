@@ -155,7 +155,7 @@ study for newcomers.</summary>
 </details>
 
 <details>
-<summary><a href="https://isir-ecom.github.io/papers/isir-ecom-2022_paper_3.pdf">Embracing Structure in Data for Billion-scale Semantic Product Search</a> by Amazon</summary>
+<summary><a href="https://isir-ecom2022.github.io/papers/isir-ecom-2022_paper_3.pdf">Embracing Structure in Data for Billion-scale Semantic Product Search</a> by Amazon</summary>
 
 </details>
 
